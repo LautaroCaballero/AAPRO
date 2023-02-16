@@ -1,0 +1,85 @@
+/* import de la fuente de texto */
+/* font-family: 'Anton', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Cuerpo de la pagina */
+body {
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    background-color: #e4e4e7;
+    background-image: url(../src/proweb.jpg);
+}
+/* Contenedor del header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #44c2e11a;
+    align-items: center;
+    box-shadow: -1px 5px 8px -4px rgba(0,0,0,0.77);
+}
+/* Logo de la pagina */
+.logo {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 73px;
+    height: 72px;
+}
+/* Contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container a {
+    text-decoration: none;
+}
+/* Titulo principal de la pagina */
+.page-title {
+    color: #ac8a53;
+}
+/* Contenedor de la navegacion */
+.nav-container {
+
+    font-weight: 700;
+    color: white;
+    display: flex;
+    list-style: none;
+}
+.nav-container a {
+    text-decoration: none;
+    color: white;
+}
+.nav-container li {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+/* Horarios de la tabla */
+.horarios {
+    font-style: italic;
+    color: #075985;
+}
+/* Dias de la tabla */
+.dias {
+    font-weight: bold;
+    color: #075985;
+    font-size: 17px;
+}
+/* Cabezera de la tabla */
+.table-header {
+    font-weight: bold;
+    color: #075985;
+}
+/* Estilos del footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: #ac8a53;
+}
+.footer img {
+    height: 15px;
+    width: 15px;
+}
+
+

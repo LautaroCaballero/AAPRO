@@ -1,0 +1,89 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.box-size {
+    width: 1fr;
+    height: 10rem;
+}
+
+.box-one {
+    background-color: blue;
+}
+
+.box-two {
+    background-color: red;
+}
+
+.box-three {
+    background-color: green;
+}
+.box-four {
+    background-color: violet;
+}
+.box-five {
+    background-color: chocolate;
+}
+.box-six {
+    background-color: greenyellow;
+}
+.box-seven {
+    background-color: dodgerblue;
+}
+.box-eight {
+    background-color: gray;
+}
+
+.box-nine {
+    background-color: black;
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 1em;
+    }
+    .box-seven {
+        display: none;
+    }
+    .box-eight {
+        display: none;
+    }
+    
+    .box-nine {
+        display: none;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 1em;
+    }
+    .box-seven {
+        display: none;
+    }
+    .box-eight {
+        display: none;
+    }
+    
+    .box-nine {
+        display: none;
+    }
+    .box-four {
+        display: none;
+    }
+    .box-five {
+        display: none;
+    }
+    .box-six {
+        display: none;
+    }
+}
