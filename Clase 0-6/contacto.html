@@ -8,7 +8,7 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header>
+ <header>
         <div class="header-container">
           <div class="logo-container">
             <a href="index.html"><img class="logo" src="./src/Logo-afa.png" alt="" /></a>
@@ -25,15 +25,19 @@
             </div>
           </nav>
         </div>
-      </header>
-    <form action="index.html" method="get" style="display: flex; flex-direction: column; width: 350px; ">
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" placeholder="Nombre:">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Email:">
-        <label for="mensaje">Mensaje</label>
-        <textarea name="mensaje" id="mensaje" cols="15" rows="5"></textarea>
-        <input style="width: 150px; margin-top: 15px;" type="submit" value="Enviar">
+      </header>  
+  <div class="form-container">
+    <form action="index.html" method="get">
+        <input class='custom-input' type="text" name="nombre" id="nombre" placeholder="Nombre:">
+        <input class='custom-input' type="email" name="email" id="email" placeholder="Email:">
+        <textarea class='custom-input' name="mensaje" id="mensaje" cols="15" rows="5" placeholder="Dejanos tu mensaje!"></textarea>
+        <input id="submit-button" class='custom-input' type="submit" value="Enviar">
     </form>
+  </div>
+    <footer class="footer">© 1996 Jane Doe 
+      <a href="https://twitter.com/afa" target="_blank"><img src="./src/twitter.png" alt=""></a>
+      <a href="https://www.facebook.com/AFASeleccionArgentina/" target="_blank"><img src="./src/facebook.png" alt=""></a>
+      <a href="https://www.instagram.com/afaseleccion/" target="_blank"><img src="./src/instagram.png" alt=""></a>
+    </footer>
 </body>
 </html>
