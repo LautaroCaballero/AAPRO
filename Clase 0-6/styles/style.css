@@ -6,25 +6,21 @@
 /* Cuerpo de la pagina */
 body {
   margin: 0;
-  /* font-family: 'Anton', sans-serif; */
   font-family: "Roboto", sans-serif;
   background-color: #e4e4e7;
   background-image: url(../src/proweb.jpg);
 }
 /* Contenedor del header */
 .header-container {
-  display: flex;
-  justify-content: space-between;
-  background-color: #44c2e11a;
-  align-items: center;
   box-shadow: -1px 5px 8px -4px rgba(0, 0, 0, 0.77);
 }
 /* Logo de la pagina */
 .logo {
   padding-left: 10px;
   padding-right: 20px;
-  width: 73px;
-  height: 72px;
+  padding: 0px 20px 0 10px;
+  width: 99px;
+  height: 67px;
 }
 /* Contenedor del logo */
 .logo-container {
@@ -59,6 +55,7 @@ body {
 .table-div {
   display: flex;
   width: 100%;
+  margin-top: 5%;
 }
 /* Estilos de la tabla */
 .table-div table caption {
@@ -76,6 +73,8 @@ body {
 }
 .table-div th, td {
   background-color: #264a6ca6;
+  width: 150px;
+  padding: 5px;
 }
 /* Horarios de la tabla */
 .horarios {
@@ -96,7 +95,10 @@ body {
 /* Estilos del form de contacto */
 .form-container {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 2%;
+}
+.bgc {
+  background-color: #91866F;
 }
 .form-container form{
     display: flex;
@@ -104,14 +106,13 @@ body {
     margin: auto;
     width: 25%;
     background-color: rgba(16, 14, 99, 0.089);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 5px;
     box-shadow: 0px 3px 13px 3px rgba(0,0,0,0.75);
 }
 .form-container label {
     color:  white;
     font-weight: bold;
-    margin: 5px 0 5px 0;
 }
 .custom-input {
     font-family: inherit;
