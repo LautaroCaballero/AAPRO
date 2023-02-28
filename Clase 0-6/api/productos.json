@@ -1,0 +1,110 @@
+[
+    {
+        "id" : 1,
+        "categoria": "camiseta",
+        "nombre" : "CAMISETA ADIDAS TITULAR CAMPEÓN DEL MUNDO",
+        "descripcion" : "La insignia de campeón del Mundo y la tercera estrella sobre el escudo confirman una victoria memorable. ",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v7536708450481482764/products/Camiseta_titular_Argentina_3_estrellas_2022_Blanco_IB3593_01_laydown.jpg&height=940&width=940",
+        "imagenAtras" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v4689249218037131319/products/Camiseta_titular_Argentina_3_estrellas_2022_Blanco_IB3593_02_laydown.jpg&height=940&width=940",
+        "precio" : "$24.999,00"
+    },
+    {
+        "id" : 2,
+        "categoria": "camiseta",
+        "nombre" : "CAMISETA ADIDAS ALTERNATIVA SELECCIÓN ARGENTINA 2022",
+        "descripcion" : "La camiseta alternativa de Argentina representa la igualdad de género. Luce tonos morados vibrantes y estampados llamativos inspirados en el Sol de Mayo de la bandera nacional.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v3925886948759474626/products/HB9220_FR_Torso_eCom.jpg&height=940&width=940",
+        "imagenAtras" : "https://www.afashop.com.ar/camiseta-adidas-alternativa-selecci%C3%B3n-argentina-2022/product/HB9220",
+        "precio" : "$21.999,00"
+    },
+    {
+        "id" : 3,
+        "categoria": "short",
+        "nombre" : "SHORT ADIDAS GAME DAY SELECCIÓN ARGENTINA",
+        "descripcion" : "Diseñados para adaptarse a tus movimientos, incluyen un par de bolsillos con cierre para tu pasaporte y billetera.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v9135524510071746528/products/Shorts_de_Viaje_Argentina_Game_Day_Blanco_IC4449_01_laydown.jpg&height=940&width=940",
+        "imagenAtras" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v7654040180894203004/products/Shorts_de_Viaje_Argentina_Game_Day_Blanco_IC4449_23_hover_model.jpg&height=940&width=940",
+        "precio" : "$19.999,00"
+    },
+    {
+        "id" : 4,
+        "categoria": "accesorio",
+        "nombre" : "FUNDA IPHONE 12 PREMIUM 3D ESCUDO SELECCIÓN ARGENTINA",
+        "descripcion" : "Funda Rígida / Reforzada / Silicona / Premium para celular iphone 12",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v5883385788835745478/products/IPH123DAFD1C_.jpg&height=940&width=940",
+        "imagenAtras" : "",
+        "precio" : "$1.040,00"
+    },
+    {
+        "id" : 5,
+        "categoria": "accesorio",
+        "nombre" : "PELOTA ADIDAS ARGENTUM 22 PRO AFA",
+        "descripcion" : "De 1978 al futuro. Los llamativos gráficos difuminados de esta pelota adidas Argentum 22 se inspiran en la icónica pelota Tango Rosario que protagonizó la coronación de Argentina como campeón del mundo en suelo local.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v1378479656339473235/products/argentum%202022-23.jpg&height=940&width=940",
+        "imagenAtras" : "",
+        "precio" : "$52.999,00"
+    },
+    {
+        "id" : 6,
+        "categoria": "accesorio",
+        "nombre" : "PELOTA N°5 ADIDAS COMPETICIÓN SELECCIÓN ARGENTINA - TEMPORADA 2021",
+        "descripcion" : "Pelota N°5 Adidas Competición Selección Argentina - Temporada 2021",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v7202731186466828557/products/pelota%202021.jpg&height=940&width=940",
+        "imagenAtras" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v8715295116921334669/products/pelota%202021%20-%203.jpg&height=940&width=940",
+        "precio" : "$32.999,00"
+    },
+    {
+        "id" : 7,
+        "categoria": "accesorio",
+        "nombre" : "BUFANDA ADIDAS SELECCIÓN ARGENTINA 23 BLANCA",
+        "descripcion" : "Una bufanda suave que demuestra tu apoyo por Argentina.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v6522799858976479812/products/HM6664_1_HARDWARE_Photography_Front%20Center%20View_grey.jpg&height=940&width=940",
+        "imagenAtras" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v3071171824478333022/products/HM6664_3_HARDWARE_Photography_Detail%20View%202_grey.jpg&height=940&width=940",
+        "precio" : "$8.999,00"
+    },
+    {
+        "id" : 8,
+        "categoria": "camiseta",
+        "nombre" : "CAMISETA ARQUERO ADIDAS ICON SELECCIÓN ARGENTINA",
+        "descripcion" : "Esta camiseta adidas se inspira en la camiseta de arquero que vistió el arquero de Argentina en el clásico partido del fútbol internacional de 1990.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v6746886891543321115/products/HF3957_4.jpg&height=940&width=940",
+        "imagenAtras" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v6306113706661608760/products/HF3957_5.jpg&height=940&width=940",
+        "precio" : "$33.999,00"
+    },
+    {
+        "id" : 9,
+        "categoria": "camiseta",
+        "nombre" : "CAMISETA ADIDAS PREPARTIDO SELECCIÓN ARGENTINA 23 AZUL",
+        "descripcion" : "Una camiseta de calentamiento de la Selección Argentina hecha con materiales reciclados",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v1727829533886684227/products/HG7233_1_APPAREL_Photography_Front%20View_grey.jpg&height=940&width=940",
+        "imagenAtras" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v9047441875743687383/products/HG7233_3_APPAREL_Photography_Back%20Center%20View_grey.jpg&height=940&width=940",
+        "precio" : "$19.999,00"
+    },
+    {
+        "id" : 10,
+        "categoria": "short",
+        "nombre" : "PANTALÓN ADIDAS GAME DAY SELECCIÓN ARGENTINA",
+        "descripcion" : "UN PANTALÓN DEPORTIVO CON PIERNAS CÓNICAS DE ARGENTINA, HECHO PARCIALMENTE CON MATERIALES RECICLADOS.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v3801763982692594609/products/Pantalon_de_Viaje_Argentina_Game_Day_Blanco_IC4448_01_laydown.jpg&height=940&width=940",
+        "imagenAtras" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v2606864364240501558/products/Pantalon_de_Viaje_Argentina_Game_Day_Blanco_IC4448_23_hover_model.jpg&height=940&width=940",
+        "precio" : "$28.999,00"
+    },
+    {
+        "id" : 11,
+        "categoria": "short",
+        "nombre" : "SHORT ADIDAS ENTRENAMIENTO SELECCIÓN ARGENTINA TIRO 23 AZUL",
+        "descripcion" : "Shorts de entrenamiento cómodos de la Selección Argentina hecho con materiales reciclados",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v6704239228793161747/products/HF3925_1_APPAREL_Photography_Front%20View_grey.jpg&height=940&width=940",
+        "imagenAtras" : "",
+        "precio" : "$14.999,00"
+    },
+    {
+        "id" : 7,
+        "categoria": "accesorio",
+        "nombre" : "",
+        "descripcion" : "",
+        "imagen" : "",
+        "imagenAtras" : "",
+        "precio" : ""
+    }
+]
