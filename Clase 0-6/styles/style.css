@@ -168,3 +168,19 @@ body {
   height: 49px;
 }
 
+.carruselMobile {
+  display: none;
+}
+
+.carruselFull {
+  display: block;
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .carruselFull {
+    display: none;
+  }
+  .carruselMobile {
+    display: block;
+  }
+}
