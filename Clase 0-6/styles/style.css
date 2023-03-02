@@ -58,12 +58,6 @@ body {
   margin-top: 5%;
 }
 /* Estilos de la tabla */
-.table-div table caption {
-    color: #91866F;
-    margin-top: 20%;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
 .table-div table {
   margin: auto;
 }
@@ -94,8 +88,7 @@ body {
 }
 /* Estilos del form de contacto */
 .form-container {
-    width: 100%;
-    margin-top: 2%;
+  background-color: rgba(16, 14, 99, 0.089);
 }
 .bgc {
   background-color: #91866F;
@@ -143,6 +136,9 @@ body {
   height: 40px;
   text-align: center;
   color: #ac8a53;
+}
+.contact-footer {
+  bottom: 0;
 }
 .footer img {
   height: 15px;
