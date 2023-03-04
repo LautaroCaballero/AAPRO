@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Helados</h1>
+        <div>
+            <select name="topping" id="topping" onchange="compraHelado(value)">
+                <option value="" >Selecciona un topping</option>
+                <option value="oreo" >Oreo</option>
+                <option value="kitkat">Kitkat</option>
+                <option value="kinder" >Kinder</option>
+                <option value="pepitos" >Pepitos</option>
+              </select>
+        </div>
+        <div>
+            <p> Precio del helado: <span id="spanHelado"></span> </p>
+            <p> Precio del topping: <span id="spanTopping"></span> </p>
+            <p> Precio final: <span id="spanFinal"></span> </p>
+        </div>
+    </div>
+
+    <p>-------------------------------------------------------------------------</p>
+    <div>
+        <h1>Menu</h1>
+        <div>
+            <select name="menu" id="menu" onchange="seleccionMenu(value)">
+                <option value="" >Selecciona un menu</option>
+                <option value="carne" >Carne</option>
+                <option value="pescado">Pescado</option>
+                <option value="verdura" >Verdura</option>
+            </select>
+            <div>
+                <p id="valorMenu">Por favor seleccione un menu</p>
+                <p id="bebida"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./Scripts/scriptClase11.js"></script>
+</body>
+</html>

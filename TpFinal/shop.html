@@ -62,15 +62,16 @@
     <div class="modal fade modalCarrito tabindex="-1" id="modal" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content" id="modalContainer">
-          
         </div>
         <div class="modal-content" id="modaltotal">
-            <p>Total de objetos: <span id="totalProductos"></span></p>
-            <p>Total a pagar: <span id="totalPago"></span> </p>
-            <div class="">
-              <button class="btn btn-success m-2">Comprar</button>
-              <button class="btn btn-danger m-2" id="btn-vaciar">Vaciar Carrito</button>
-            </div>
+          <div class="ps-3 pt-3">
+            <p class='fw-bold'>Total de objetos: <span id="totalProductos"></span></p>
+            <p class='fw-bold text-success'>Total a pagar: $<span id="totalPago"></span> </p>
+          </div>
+          <div class="w-75 mx-auto text-center">
+            <button class="btn btn-success m-2">Comprar</button>
+            <button class="btn btn-danger m-2" id="btn-vaciar">Vaciar Carrito</button>
+          </div>
         </div>
       </div>
     </div>

@@ -164,19 +164,31 @@ body {
   height: 49px;
 }
 
-.carruselMobile {
-  display: none;
+.container-principal {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
-.carruselFull {
-  display: block;
+.alerta-principal {
+  width: 650px;
+  height: 350px;
+  background-color: rgba(3, 3, 53, 0.384);
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(207, 194, 194);
+  
+}
+.alerta-principal h3 {
+  margin-top: 80px;
+}
+.alerta-principal button {
+  width: 150px;
+  height: 30px;
+  margin-top: 70px;
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
-  .carruselFull {
-    display: none;
-  }
-  .carruselMobile {
-    display: block;
-  }
-}
+
+
