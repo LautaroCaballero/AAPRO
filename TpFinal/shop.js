@@ -10,23 +10,11 @@ let botonRestar = document.getElementById("restarProducto");
 
 document.addEventListener("DOMContentLoaded", () => {
   carga();
-  carruselImg()
   if (localStorage.getItem("carrito")) {
     carrito = JSON.parse(localStorage.getItem("carrito"));
     renderizarCarrito();
   }
 });
-
-const carruselImg = () => {
-    let img1 = document.getElementById=('img1')
-    if(window.innerWidth < 600) {
-      img1.src='./src/messiJulian.jpg' 
-    }
-   else {
-    img1.src='./src/bestweb.jpg'
-  }
-   }
-
 
 //Carrito
 let carrito = {};
@@ -55,7 +43,7 @@ const carga = (filtro = "") => {
                       ${item.descripcion}
                   </p>
                 </div>
-                <p id="precio">$${item.precio}</p>
+                <p id="precio">${item.precio}</p>
                 <a href="#" class="btn btn-success" data-id="${item.id}">Compralo ahora!</a>
               </div>
             </div>
@@ -78,8 +66,8 @@ const carga = (filtro = "") => {
                       ${item.descripcion}
                   </p>
                 </div>
-                <p id="precio">$${item.precio}</p>
-                <a href="#" class="btn btn-success" data-id="${item.id}">Compralo ahora!</a>
+                <p id="precio">${item.precio}</p>
+                <button class="btn btn-success" data-id="${item.id}">Compralo ahora!</button>
               </div>
             </div>
               </div>
@@ -101,8 +89,8 @@ const carga = (filtro = "") => {
                       ${item.descripcion}
                   </p>
                 </div>
-                <p id="precio">$${item.precio}</p>
-                <a href="#" class="btn btn-success" data-id="${item.id}">Compralo ahora!</a>
+                <p id="precio">${item.precio}</p>
+                <button class="btn btn-success" data-id="${item.id}">Compralo ahora!</button>
               </div>
             </div>
               </div>
@@ -122,8 +110,8 @@ const carga = (filtro = "") => {
                         ${item.descripcion}
                     </p>
                   </div>
-                  <p id="precio">$${item.precio}</p>
-                  <a href="#" class="btn btn-success" data-id="${item.id}">Compralo ahora!</a>
+                  <p id="precio">${item.precio}</p>
+                  <button class="btn btn-success" data-id="${item.id}">Compralo ahora!</button>
                 </div>
               </div>
                 </div>
@@ -134,7 +122,7 @@ const carga = (filtro = "") => {
 };
 
 filterContainer.addEventListener("click", (e) => {
-  if (e.target && e.target.tagName === "A") {
+  if (e.target && e.target.tagName === "BUTTON") {
     mainContainer.innerHTML = "";
     carga(e.target.id);
   }
@@ -184,8 +172,7 @@ const agregarCarrito = (item) => {
 const renderizarCarrito = () => {
   modalContainer.innerHTML = "";
   Object.values(carrito).forEach((item) => {
-    modalContainer.innerHTML += 
-    `<div class=' px-4 py-3 mt-1'>
+    modalContainer.innerHTML += `<div class=' px-4 py-3 mt-1'>
         <div class='d-flex flex-column justify-content-around'>
           <p class='fw-bold'>${item.nombre}</p>
           <div class="w-50 d-flex justify-content-evenly mx-auto">
@@ -196,7 +183,9 @@ const renderizarCarrito = () => {
           <button id="restarProducto" class='btn btn-danger' style='height: 35px' data-id="${
             item.id
           }">-</button>
-          <p class='fw-bold text-success'>$${item.cantidad * parseFloat(item.precio)}</p>
+          <p class='fw-bold text-success'>$${
+            item.cantidad * parseFloat(item.precio)
+          }</p>
           </div>
         </div>
     </div>`;
@@ -224,4 +213,3 @@ const renderizarTotal = () => {
     renderizarCarrito();
   });
 };
-
