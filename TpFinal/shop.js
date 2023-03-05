@@ -120,16 +120,20 @@ const carga = (filtro = "") => {
       }
     });
 };
-
+//Le agregamnos un evento click a la lista de filtros, con el condicional de que el 
+//click se haga sobre un objeto con el tagname 'a'
 filterContainer.addEventListener("click", (e) => {
-  if (e.target && e.target.tagName === "BUTTON") {
+  if (e.target && e.target.tagName === "A") {
+    //vaciamos el contenido de el contenedor principal
     mainContainer.innerHTML = "";
+    //Hacemos la carga dependiendo del id que le mandemos a la funcion al hacer click
     carga(e.target.id);
   }
 });
-
+//Le agregamos un evento click al boton de agregar al carrito
 mainContainer.addEventListener("click", (e) => {
   if (e.target.classList.contains("btn-success")) {
+    //Agregamos el div completo del producto a agregar y lo pasamos a la funcion 'AgregarCarrito'
     agregarCarrito(e.target.parentElement.parentElement);
   }
 });
@@ -137,8 +141,11 @@ mainContainer.addEventListener("click", (e) => {
 modal.addEventListener("click", (e) => {
   //Sumar cantidad + 1
   if (e.target.classList.contains("btn-success")) {
+    //Seteamos la variable producto con el carrito en el "indice" de el producto con el data-id correspondiente
     const producto = carrito[e.target.dataset.id];
     producto.cantidad++;
+    //Luego de sumar la cantidad +1 hacemos una copia del producto mediante los {...} y se lo asignamos al
+    //Carrito en el indice correspondiente
     carrito[e.target.dataset.id] = { ...producto };
     renderizarCarrito();
   }
@@ -147,6 +154,7 @@ modal.addEventListener("click", (e) => {
     const producto = carrito[e.target.dataset.id];
     producto.cantidad--;
     carrito[e.target.dataset.id] = { ...producto };
+    //Misma funcionalidad que al momento de sumar, pero si el producto llega a una cantidad de 0 se borra del carrito
     if (producto.cantidad === 0) {
       delete carrito[e.target.dataset.id];
     }
@@ -155,22 +163,27 @@ modal.addEventListener("click", (e) => {
 });
 
 const agregarCarrito = (item) => {
+  //Se crea un objeto para el producto a agregar con los elementos correspondientes
   const producto = {
     id: item.querySelector(".btn-success").dataset.id,
     nombre: item.querySelector(".card-title").innerHTML,
     precio: item.querySelector("#precio").textContent,
     cantidad: 1,
   };
+  //Se crea un condicional en el cual pregunta al carrito si el producto ya existe dentro del mismo
+  //hasOwnProperty se utiliza para acceder a las propiedades del objeto carrito y su key correspondiente
+  //Si el producto ya existe se aumenta el producto.cantidad +1
   if (carrito.hasOwnProperty(producto.id)) {
     producto.cantidad = carrito[producto.id].cantidad + 1;
   }
-
+  // Se busca el producto correspondiente dentro del carrito y se lo sobreescribe con el nuevo producto
   carrito[producto.id] = { ...producto };
   renderizarCarrito();
 };
 
 const renderizarCarrito = () => {
   modalContainer.innerHTML = "";
+  //Por cada producto dentro del carrito se renderiza un div con sus estilos especificos
   Object.values(carrito).forEach((item) => {
     modalContainer.innerHTML += `<div class=' px-4 py-3 mt-1'>
         <div class='d-flex flex-column justify-content-around'>
@@ -195,6 +208,11 @@ const renderizarCarrito = () => {
 };
 
 const renderizarTotal = () => {
+  //Se utiliza Object.values ya que el carrito es una coleccion de objetos y por lo tanto no se puede
+  //Utilizar todos los metodos de los arrays
+
+  //Se utiliza reducer para recorrer todos los objetos, declarar el acumulador, acceder a la propiedad {cantidad}
+  // y acumular la cantidad + acumulador
   const cantidadtotal = Object.values(carrito).reduce(
     (acumulador, { cantidad }) => acumulador + cantidad,
     0

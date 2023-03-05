@@ -99,12 +99,66 @@
         "precio" : "14999"
     },
     {
-        "id" : 7,
-        "categoria": "accesorio",
-        "nombre" : "",
-        "descripcion" : "",
-        "imagen" : "",
+        "id" : 12,
+        "categoria": "camiseta",
+        "nombre" : "CAMPERA ADIDAS ANTHEM GAME DAY SELECCIÓN ARGENTINA",
+        "descripcion" : " Su ajuste ceñido y estilizado con forro interno de malla suave te mantiene cómodo en todo momento.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v7765400816790891539/products/Campera_Anthem_Argentina_Game_Day_Blanco_IC4446_01_laydown.jpg&height=940&width=940",
         "imagenAtras" : "",
-        "precio" : ""
+        "precio" : "39999"
+    },
+    {
+        "id" : 13,
+        "categoria": "camiseta",
+        "nombre" : "REMERA ADIDAS CAMPEÓN SELECCIÓN ARGENTINA",
+        "descripcion" : "100% Argentina. Remera estampada para seguir festejando a la selección en todo momento y lugar. ",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v4118088970585018021/products/Remera_Argentina_Campeon_2022_Blanco_IR0032_01_laydown.jpg&height=940&width=940",
+        "imagenAtras" : "",
+        "precio" : "18999"
+    },
+    {
+        "id" : 14,
+        "categoria": "short",
+        "nombre" : "PANTALÓN MUJER ADIDAS DEPORTIVO SELECCIÓN ARGENTINA",
+        "descripcion" : "Este pantalón adidas se inspira en el uniforme suplente púrpura de Argentina, compartiendo su mensaje sobre la igualdad de género.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v8656198631694813331/products/HL8433_1.jpg&height=940&width=940",
+        "imagenAtras" : "",
+        "precio" : "22999"
+    },
+    {
+        "id" : 15,
+        "categoria": "short",
+        "nombre" : "SHORT ADIDAS ADN SELECCIÓN ARGENTINA",
+        "descripcion" : "Vestí colores con propósito. Inspirados en el llamativo uniforme de suplente de la Selección Argentina, estos shorts de fútbol adidas incluyen un sutil escudo del equipo",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v2393969780174450317/products/HF3943_1.jpg&height=940&width=940",
+        "imagenAtras" : "",
+        "precio" : "19999"
+    },
+    {
+        "id" : 16,
+        "categoria": "short",
+        "nombre" : "PANTALÓN INFANTIL ADIDAS PRESENTACIÓN SELECCIÓN ARGENTINA",
+        "descripcion" : "Los jugadores de la selección Argentina usan una versión de este pantalón de fútbol para jóvenes en sus apariciones en público.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v6580431804153028002/products/FH8598_APP_photo_front_white.jpg&height=940&width=940",
+        "imagenAtras" : "",
+        "precio" : "9599"
+    },
+    {
+        "id" : 17,
+        "categoria": "accesorio",
+        "nombre" : "RIÑONERA ADIDAS DEPORTIVA SELECCIÓN ARGENTINA",
+        "descripcion" : "Tené a mano todo lo que necesitás. Inspirado en los colores del uniforme de suplente, esta riñonera deportiva de adidas Argentina tiene una cubierta tejida rígida y un bolsillo con cierre al frente.",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v8437220366794274839/products/HM6665_1.jpg&height=940&width=940",
+        "imagenAtras" : "",
+        "precio" : "11999"
+    },
+    {
+        "id" : 18,
+        "categoria": "accesorio",
+        "nombre" : "TOALLÓN ESCUDO AFA",
+        "descripcion" : "Toallon escudo AFA",
+        "imagen" : "https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v8439408018737976383/products/16276119824e73df2e8203986e2070d02a3209d6cc.jpeg&height=940&width=940",
+        "imagenAtras" : "",
+        "precio" : "4710"
     }
 ]
